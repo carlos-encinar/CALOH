@@ -10,7 +10,11 @@ package Codigo;
  * @author xp
  */
 public class VentanaCalculadora extends javax.swing.JFrame {
-
+    
+    double operando1 = 0; //primer operando //double capaz de entender numeros enteros y decimales
+    
+    String operacion = "";
+    
     /**
      * Creates new form VentanaCalculadora
      */
